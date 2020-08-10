@@ -1,0 +1,19 @@
+{
+  "name": "expressjs-projects",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "jade": "~1.11.0",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

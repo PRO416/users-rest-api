@@ -1,0 +1,45 @@
+GET http://localhost:8089/api/users
+
+###
+
+GET http://localhost:8089/api/users/Smartkyid
+Content-Type: application/json
+
+{
+  "password": "mathematics"
+}
+
+###
+
+POST http://localhost:8089/api/users
+Content-Type: application/json
+
+{
+  "name": "Sbusiso Mthimunye",
+  "username": "S4rg3nt",
+  "password": "backenddeveloper"
+}
+
+###
+
+POST http://localhost:8089/api/users
+Content-Type: application/json
+
+{
+  "name": "Ofentse Pholosi",
+  "username": "Smartkyid",
+  "password": "mathematics"
+}
+
+###
+
+PATCH http://localhost:8089/api/users/Mahlodi
+Content-Type: application/json
+
+{
+  "username": "Chunks"
+}
+
+###
+
+DELETE http://localhost:8089/api/users/S4rg3nt
